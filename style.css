@@ -1,0 +1,147 @@
+/* Estilos Gerais */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    }
+    body {
+    color: #333;
+    background: #f0f4f8;
+    }
+    
+    header {
+    text-align: center;
+    padding: 2rem 0;
+    background-image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lojarcell.com.br%2Fcelulares%2Fmotorola%2Fmotorola%2F4%2520GB%3FPS%3D24%26map%3Dc%2Cc%2Cb%2CspecificationFilter_55&psig=AOvVaw1j5TKDndCYY2Edm5ixu1_l&ust=1730212812847000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCO85ansYkDFQAAAAAdAAAAABAE" ;
+    }
+    
+    header h1 {
+    font-size: 3rem;
+    animation: fadeInDown 1s ease;
+    }
+    
+    header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    opacity: 0.8;
+    }
+    
+    /* Showcase */
+    .showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    background: #fff;
+    }
+    
+    .showcase img {
+    width: 300px;
+    animation: slideInLeft 1.5s ease;
+    }
+    
+    .showcase .info {
+    max-width: 500px;
+    margin-left: 2rem;
+    text-align: left;
+    }
+    
+    .showcase button {
+    background: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    }
+    
+    .showcase button:hover {
+    background: #023e8a;
+    }
+    
+    /* Features */
+    .features {
+    padding: 4rem 1rem;
+    background: #f9fafb;
+    text-align: center;
+    }
+    
+    .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    }
+    
+    .feature {
+    display: inline-block;
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    }
+    
+    .feature:hover {
+    transform: scale(1.05);
+    }
+    
+    /* CTA */
+    .cta {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(120deg, #90e0ef, #00b4d8);
+    color: #fff;
+    }
+    
+    .cta button {
+    background: #023e8a;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    }
+    
+    .cta button:hover {
+    background: #0077b6;
+    }
+    
+    /* Animações */
+    @Keyframes fadeInDown {
+    from {
+    opacity: 0;
+    transform: translateY(-20px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    }
+    
+    @Keyframes slideInLeft {
+    from {
+    opacity: 0;
+    transform: translateX(-30px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+    }
+    /* Imagem principal na seção de apresentação */
+.showcase img {
+    width: 300px;
+    margin-right: 20px;
+    animation: slideInLeft 1.5s ease;
+  }
+  
+  /* Imagens das features */
+  .features .feature img {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 50px;
+  }
