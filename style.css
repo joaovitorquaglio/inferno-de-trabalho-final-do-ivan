@@ -51,7 +51,7 @@ header {
   color: #8a8983; 
 }
 
-/* Ajustes para mobile */
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column; 
@@ -108,7 +108,7 @@ header {
     }
     
     
-    /* Features */
+    
     .features {
     padding: 4rem 1rem;
     background: #f9fafb;
@@ -157,7 +157,7 @@ header {
     background: #000000;
     }
     
-    /* Animações */
+    
     @Keyframes fadeInDown {
     from {
     opacity: 0;
