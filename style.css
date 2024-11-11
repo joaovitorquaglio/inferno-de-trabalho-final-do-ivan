@@ -1,4 +1,4 @@
-{
+header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -99,7 +99,7 @@ header {
       padding: 0.8rem 1.5rem;
       font-size: 1rem;
       cursor: pointer;
-      transition: background 0.3s ease;
+      transition: 0.3s ease;
       margin-right: 10px; 
     }
     
@@ -150,7 +150,7 @@ header {
     font-size: 1.2rem;
     border: none;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
     }
     
     .cta button:hover {
@@ -158,7 +158,7 @@ header {
     }
     
     
-    @Keyframes fadeInDown {
+    @-webkit-keyframes fadeInDown {
     from {
     opacity: 0;
     transform: translateY(-20px);
@@ -169,7 +169,7 @@ header {
     }
     }
     
-    @Keyframes slideInLeft {
+    @-webkit-keyframes slideInLeft {
     from {
     opacity: 0;
     transform: translateX(-30px);
@@ -178,7 +178,31 @@ header {
     opacity: 1;
     transform: translateX(0);
     }
+    
     }
+
+    @keyframes fadeInDown {
+      from {
+      opacity: 0;
+      transform: translateY(-20px);
+      }
+      to {
+      opacity: 1;
+      transform: translateY(0);
+      }
+      }
+      
+      @keyframes slideInLeft {
+      from {
+      opacity: 0;
+      transform: translateX(-30px);
+      }
+      to {
+      opacity: 1;
+      transform: translateX(0);
+      }
+      
+      }
    
 .showcase img {
     width: 500px;
